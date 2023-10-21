@@ -1,3 +1,3 @@
-# sextodesafio
+# Portfolio
 
-<h3> aplicando handlebars</h3>
+Portfolio creado en React + Vite con vista de proyectos y datos de contacto.
