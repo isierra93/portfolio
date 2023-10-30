@@ -1,8 +1,157 @@
 :root {
-  background-color: #242424;
-  color: azure;
+  background-color: #fff8f2;
+  color: #ffa620;
 }
 
-.love {
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.navBar{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.navBar-list li{
+  padding-top: 1rem;
+  font-weight: 900;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.header-img{
+  display: flex;
+  justify-content: center;
+}
+.img-perfil{
+  border-radius: 1rem;
+  height: 20rem;
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.header-content h2{
+  font-size: 3rem
+}
+.header-list{
+  display: flex;
+  justify-content: center;
+}
+.header-list li{
+  padding: 1rem;
+  color: #ffa620;
+}
+.header-list-li a{
+  color: #ffa620;
+  width: 2rem;
+}
+
+#aboutMe{
+  background-color: rgb(63, 88, 80);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: solid .1rem #ff0000;
+  text-align: center;
+}
+.skill-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.skill-container ul{
+  border: solid .1rem red;
+  border-radius: 1rem;
+  color: red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.skill-container ul li{
+  padding: .5rem;
+}
+
+#proyects{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.proyect-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid .1rem red;
+  width: 15rem;
+  margin: 2.5rem;
+  padding: 1rem;
+}
+.proyect-card h3{
+  text-align: center;
+}
+.img-project{
+  margin: auto;
+  height: 10rem;
+  width: 10rem;
+  border: solid .1rem red;
+  object-fit: contain;
+}
+.proyect-card a{
+  margin: .5rem;
+}
+.proyect-links{
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+li{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+  outline: none;
+  color: #474747;
+}
+
+
+a:link {text-decoration: none;
+}
+
+a:visited {text-decoration: none;
+}
+
+a:focus {text-decoration: none;
+}
+
+a:hover {text-decoration: none;
+}
+
+a:active {text-decoration: none;
+}
+
+
+
+
+.footer{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.love{
   color: #ff0000;
 }
