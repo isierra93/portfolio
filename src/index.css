@@ -1,6 +1,10 @@
 :root {
   background-color: #fff8f2;
   color: #ffa620;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -11,20 +15,28 @@ body{
 }
 
 .navBar{
-  margin-top: 2rem;
+  margin-top: .5rem;
   margin-bottom: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .navBar-list li{
   padding-top: 1rem;
+  padding-bottom: 1rem;
   font-weight: 900;
+  font-size: 1.5rem;
+}
+.navBar-list li:hover{
+  transform: scale(1.5);
+  transition: all 500ms ease-in-out;
 }
 
 .header{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   margin-bottom: 5rem;
 }
 .header-img{
@@ -44,17 +56,25 @@ body{
 .header-content h2{
   font-size: 3rem
 }
+.curriculum{
+  color: #ffd79a;
+}
+.curriculum:hover{
+  color: #ffa620;
+}
 .header-list{
   display: flex;
   justify-content: center;
 }
 .header-list li{
   padding: 1rem;
-  color: #ffa620;
 }
 .header-list-li a{
-  color: #ffa620;
+  color: #ffd79a;
   width: 2rem;
+}
+.header-list-li a:hover{
+  color: #ffa620;
 }
 
 #aboutMe{
@@ -81,11 +101,19 @@ body{
 .skill-container ul li{
   padding: .5rem;
 }
+.skill-img{
+  height: 3rem;
+  width: 3rem;
+  opacity: .9;
+}
 
 #proyects{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.proyects-title{
+  text-align: center;
 }
 .proyect-card{
   display: flex;

@@ -1,12 +1,12 @@
-export default function Navbar (){
-    return(
-        <nav>
-            <ul>
-                <li>Sobre mi</li>
-                <li>Proyectos</li>
-                <li>Contacto</li>
-                <li>ES</li>
-                <li>COLORTHEME</li>
+export default function Navbar() {
+    return (
+        <nav className='navBar'>
+            <ul className='navBar-list'>
+                <li><a className='link' href="#aboutMe">Sobre mi</a></li>
+                <li><a className='link' href="#proyects">Proyectos</a></li>
+                <li className='link'>Contacto</li>
+                <li className='link'>ES</li>
+                <li className='link'><i className="fa fa-sun-o" aria-hidden="true"></i></li>
             </ul>
         </nav>
     )
