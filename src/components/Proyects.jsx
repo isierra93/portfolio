@@ -1,35 +1,29 @@
+import { projects } from "../data.js"
+
 export default function Proyects() {
     return (
-        <section>
-            <h3 className='proyects-title'>Mis proyectos</h3>
-            <div id='proyects'>
-                <div className='proyect-card'>
-                    <h3>Weather App</h3>
-                    <img className='img-project' src="https://camo.githubusercontent.com/0e19d555fcf7944eeb9720b7a84f93f47e281ba2c8f516134d9ef566d5143d21/68747470733a2f2f692e706f7374696d672e63632f5871567a5a7962742f436170747572612e706e67" alt="" />
-                    <p>Aplicacion que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.</p>
-                    <div className='proyect-links'>
-                        <a href="Github">Github</a>
-                        <a href="Deploy">Deploy</a>
+        <section id='proyects'>
+            <h3 className='proyects-title'><span className="not-highlight">Mis</span> proyectos</h3>
+            <div className='proyects'>
+                {projects.map(project =>{
+                    return(
+                        <div className='card'>
+                        <img className='card-image' src={project.image} alt={project.name} />
+                        <div className="card-content">
+                            <p className="card-title">{project.name}</p>
+                            <p className="card-description">{project.description}</p>
+                            <div className="card-links">
+                                <a href={project.deploy} target='_blank'>
+                                    <i className="fa fa-link fa-3x" aria-hidden="true"></i>
+                                </a>
+                                <a href={project.repository} target='_blank'>
+                                    <i className="fa fa-github fa-3x" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className='proyect-card'>
-                    <h3>Weather App</h3>
-                    <img className='img-project' src="https://camo.githubusercontent.com/0e19d555fcf7944eeb9720b7a84f93f47e281ba2c8f516134d9ef566d5143d21/68747470733a2f2f692e706f7374696d672e63632f5871567a5a7962742f436170747572612e706e67" alt="" />
-                    <p>Aplicacion que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.</p>
-                    <div className='proyect-links'>
-                        <a href="Github">Github</a>
-                        <a href="Deploy">Deploy</a>
-                    </div>
-                </div>
-                <div className='proyect-card'>
-                    <h3>Weather App</h3>
-                    <img className='img-project' src="https://camo.githubusercontent.com/0e19d555fcf7944eeb9720b7a84f93f47e281ba2c8f516134d9ef566d5143d21/68747470733a2f2f692e706f7374696d672e63632f5871567a5a7962742f436170747572612e706e67" alt="" />
-                    <p>Aplicacion que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.</p>
-                    <div className='proyect-links'>
-                        <a href="Github">Github</a>
-                        <a href="Deploy">Deploy</a>
-                    </div>
-                </div>
+                    )
+                })}
             </div>
         </section>
     )
