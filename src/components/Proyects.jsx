@@ -7,7 +7,7 @@ export default function Proyects() {
             <div className='proyects'>
                 {projects.map(project =>{
                     return(
-                        <div className='card'>
+                        <div key={project.name} className='card'>
                         <img className='card-image' src={project.image} alt={project.name} />
                         <div className="card-content">
                             <p className="card-title">{project.name}</p>

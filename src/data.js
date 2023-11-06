@@ -14,7 +14,7 @@ export const techs = [
     },
     {
         name: 'SASS',
-        img: 'https://w7.pngwing.com/pngs/206/645/png-transparent-sass-logos-and-brands-line-filled-icon.png',
+        img: 'https://sass-lang.com/assets/img/styleguide/seal-color.png',
         color: '#bf6292'
     },
     {
@@ -63,11 +63,11 @@ export const techs = [
         color: '#dfba16'
     },
     {
-        name: 'MYSQL',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/MySQL_textlogo.svg/640px-MySQL_textlogo.svg.png',
+        name: 'SQL',
+        img: 'https://www.freeiconspng.com/uploads/sql-server-icon-png-7.png',
         imgSize: {
-            height: '2rem',
-            width: '2rem',},
+            height: '2.1rem',
+            width: '2.1rem',},
         color: '#06738a'
     },
 ]
