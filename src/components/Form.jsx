@@ -1,28 +1,35 @@
-import emailjs from '@emailjs/browser'
+import { useForm } from '../hooks/useForm.js'
 
 export default function Form() {
-
-    const sendEmail = async (e) => {
-        e.preventDefault();
-    
-        await emailjs.sendForm('service_6n1g5ug', 'template_pq7t16l', e.target, 'M3Bj2wy194z-IY7dS')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-      }
+    const { name, email, message, handleSubmit, handleName, handleEmail, handleMessage } = useForm()
 
     return (
-        <div className='form-container'>
-            <form onSubmit={sendEmail}>
-                <label>Nombre</label>
-                <input type="text" name="user_name" />
-                <label>Email</label>
-                <input type="email" name="user_email" />
-                <label>Mensaje</label>
-                <textarea name="message" />
-                <input type="submit" value="Send" />
+        <div id='form'>
+            <h4 className='form-title'>Contactame</h4>
+            <form className='form-container' onSubmit={handleSubmit}>
+                <label htmlFor='user_name' >Nombre:</label>
+                <input
+                    onChange={handleName}
+                    value={name}
+                    required
+                    type="text"
+                    id='user_name'
+                    name="user_name" />
+                <label htmlFor='user_email' >Email:</label>
+                <input
+                    onChange={handleEmail}
+                    value={email}
+                    required
+                    type="email"
+                    id='user_email'
+                    name="user_email" />
+                <label htmlFor='message' >Mensaje:</label>
+                <textarea
+                    onChange={handleMessage}
+                    value={message}
+                    id='message'
+                    name="message" />
+                <button className='button-send' type="submit" >Enviar</button>
             </form>
         </div>
     )

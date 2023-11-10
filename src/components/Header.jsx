@@ -1,4 +1,5 @@
 export default function Header() {
+
     return (
         <header className='header'>
             <div className='header-img'>
@@ -8,7 +9,7 @@ export default function Header() {
                 <h2>Hola, soy Iván Sierra.</h2>
                 <h3>Desarrollador Full Stack MERN</h3>
                 <div>
-                    <h4>Currículum.</h4>
+                    <h4>Currículum</h4>
                     <a href="/favicon.png" target='_blank' className='curriculum'>
                         <i className="fa fa-cloud-download fa-2x" aria-hidden="true"></i>
                     </a>
@@ -25,8 +26,8 @@ export default function Header() {
                         </a>
                     </li>
                     <li className='header-list-li'>
-                        <a href="MAIL" target='_blank'>
-                            <i className="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+                        <a href="#form">
+                            <i className="fa fa-envelope-o fa-3x" aria-hidden="true" ></i>
                         </a>
                     </li>
                 </ul>

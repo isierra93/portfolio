@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from "react"
 
 export default function Navbar() {
 
@@ -24,7 +24,7 @@ export default function Navbar() {
             <ul className='navBar-list'>
                 <li><a className={darkLink} href="#aboutMe">Sobre mi</a></li>
                 <li><a className={darkLink} href="#proyects">Proyectos</a></li>
-                <li><a className={darkLink} href="">Contacto</a></li>
+                <li><a className={darkLink} href="#form" >Contacto</a></li>
                 <li><a className={darkLink} href="#"><i onClick={darkMode} className={darkIcon} aria-hidden="true"></i></a></li>
             </ul>
         </nav>

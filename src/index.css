@@ -212,6 +212,51 @@ li{
 .card-content a:hover{
   color: #ffa620;
 }
+/* Form */
+#form{
+  margin-top: 4rem;
+ }
+ .form-title{
+   font-size: 2rem;
+   text-align: center;
+ }
+ .form-container{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1rem;
+   margin: 3rem;
+ }
+ .form-container input{
+   border-radius: .5rem;
+   height: 1.5rem;
+   color: #474747;
+   border: 0;
+   font-weight: 500;
+ }
+ .form-container label{
+   margin-top: 1rem;
+   margin-bottom: .5rem;
+   font-weight: 900;
+ }
+ textarea{
+   height: 5rem;
+   border-radius: .5rem;
+   border: 0;
+   color: #474747;
+ }
+ .button-send{
+   background-color: #ffa620;
+   border: 0;
+   height: 2rem;
+   margin-top: 1rem;
+   border-radius: 1rem;
+   font-weight: 900;
+   color: #474747;
+ }
+ .button-send:hover{
+  cursor: pointer;
+ }
 /* Footer */
 .footer{
   text-align: center;

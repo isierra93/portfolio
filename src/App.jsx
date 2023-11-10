@@ -3,6 +3,7 @@ import Header from './components/Header.jsx'
 import AboutMe from './components/AboutMe.jsx'
 import Proyects from './components/Proyects.jsx'
 import Footer from './components/Footer.jsx'
+import Form from './components/Form.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <AboutMe />
       <Proyects />
+      <Form />
       <Footer />
     </>
   )
