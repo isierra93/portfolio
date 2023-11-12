@@ -1,9 +1,11 @@
+import perfil from '/perfil.jpeg'
+
 export default function Header() {
 
     return (
         <header className='header'>
             <div className='header-img'>
-                <img className='img-perfil' src="src/assets/perfil.jpeg" alt="A picture of me created by IA" />
+                <img className='img-perfil' src={perfil} alt="A picture of me created by IA" />
             </div>
             <div className='header-content'>
                 <h2>Hola, soy Iván Sierra.</h2>
