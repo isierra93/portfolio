@@ -249,10 +249,11 @@ li{
    background-color: #ffa620;
    border: 0;
    height: 2rem;
-   margin-top: 1rem;
    border-radius: 1rem;
    font-weight: 900;
    color: #474747;
+   width: 5rem;
+   margin: 3.5% auto;
  }
  .button-send:hover{
   cursor: pointer;
@@ -266,4 +267,33 @@ li{
 }
 .love{
   color: #ff0000;
+}
+
+@media (min-width:769px) {
+  .navBar-list{
+    display: flex;
+    flex-direction: row;
+  }
+  .navBar-list li{
+    padding: 1.5rem;
+  }
+  .header{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #aboutMe{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .form-container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (min-width:1025px) {
+  .form-container{
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
 }
