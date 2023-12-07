@@ -3,7 +3,7 @@ import perfil from '/perfil.jpeg'
 export default function Header() {
 
     return (
-        <header className='header'>
+        <header className='header animate__animated animate__lightSpeedInLeft'>
             <div className='header-img'>
                 <img className='img-perfil' src={perfil} alt="A picture of me created by IA" />
             </div>

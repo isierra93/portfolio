@@ -4,7 +4,7 @@ export default function Form() {
     const { name, email, message, handleSubmit, handleName, handleEmail, handleMessage } = useForm()
 
     return (
-        <div id='form'>
+        <div id='form' data-aos="fade-left">
             <h4 className='form-title'>Contactame</h4>
             <form className='form-container' onSubmit={handleSubmit}>
                 <label htmlFor='user_name' >Nombre:</label>
