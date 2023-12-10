@@ -1,4 +1,5 @@
-import perfil from '/perfil.jpeg'
+import perfil from '/profile.jpg'
+import CV from '/Ivan Sierra - Curriculum.pdf'
 
 export default function Header() {
 
@@ -12,7 +13,7 @@ export default function Header() {
                 <h3>Desarrollador Full Stack MERN</h3>
                 <div>
                     <h4>Currículum</h4>
-                    <a href="/favicon.png" target='_blank' className='curriculum'>
+                    <a href={CV} target='_blank' className='curriculum'>
                         <i className="fa fa-cloud-download fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>

@@ -20,7 +20,7 @@ export default function Navbar() {
     const [darkIcon, setdarkIcon] = useState('fa fa-moon-o')
 
     return (
-        <nav className='navBar' data-aos="fade-right">
+        <nav className='navBar' data-aos="fade-down">
             <ul className='navBar-list'>
                 <li><a className={darkLink} href="#aboutMe">Sobre mi</a></li>
                 <li><a className={darkLink} href="#proyects">Proyectos</a></li>
