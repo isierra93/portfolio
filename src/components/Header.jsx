@@ -9,8 +9,8 @@ export default function Header() {
                 <img className='img-perfil' src={perfil} alt="A picture of me created by IA" />
             </div>
             <div className='header-content'>
-                <h2>Hola, soy Iván Sierra.</h2>
-                <h3>Desarrollador Full Stack MERN</h3>
+                <h2 className='header-content-title'>Hola, soy Iván Sierra.</h2>
+                <h3 className='animation-write'>Desarrollador Full Stack.</h3>
                 <div>
                     <h4>Currículum</h4>
                     <a href={CV} target='_blank' className='curriculum'>

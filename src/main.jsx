@@ -6,8 +6,8 @@ import './index.css'
 import Aos from 'aos'
 
 Aos.init({
-  delay: 150,
-  once: true
+  delay: 100,
+  once: false
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(

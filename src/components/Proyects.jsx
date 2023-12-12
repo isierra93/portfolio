@@ -2,7 +2,7 @@ import { projects } from "../data.js"
 
 export default function Proyects() {
     return (
-        <section id='proyects' data-aos="fade-right">
+        <section id='proyects'>
             <h3 className='proyects-title'><span className="not-highlight">Mis</span> proyectos</h3>
             <div className='proyects'>
                 {projects.map(project =>{

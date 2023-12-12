@@ -82,7 +82,7 @@ export const projects = [
     },
     {
         name: 'Exchange App',
-        description: 'Aplicacion que simula un Exchange de criptomonedas. Se puede realizar la compra ingresando cantidad de USD. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Se puede consultar el saldo actual en la solapa historial, que tambien consulta el valor actual para brindar un balance en USD. Construida con Bootstrap, Swal y Luxon.',
+        description: 'Aplicacion que simula un Exchange de criptomonedas. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Construida con Bootstrap, Swal y Luxon.',
         image: 'https://camo.githubusercontent.com/03879b0e1230343a6e34861aa355dd49fc7521d331d1823cf782f7ef0d3c092e/68747470733a2f2f692e706f7374696d672e63632f74435a35487367712f436170747572612d6d696e2e706e67',
         deploy: 'https://isierra93.github.io/Cryptocurrency-exchange/',
         repository: 'https://github.com/isierra93/Cryptocurrency-exchange'
