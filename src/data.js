@@ -81,6 +81,13 @@ export const projects = [
         repository: 'https://github.com/isierra93/weather-app'
     },
     {
+        name: 'Ecommerce - React',
+        description: 'Aplicacion Ecommerce que cuenta con carrito de compras, filtrado de productos, formulario de consultas y retorna ID de transaccion. La base de datos esta en Firebase',
+        image: 'https://camo.githubusercontent.com/d6915e0b76b2496b7b018467cd70845dc62d3f8d1aa5bfe8919df3bdb7b600b9/68747470733a2f2f692e706f7374696d672e63632f67633435645630582f6e61726369736f312d6d696e2e706e67',
+        deploy: 'https://ecommerce-narciso.vercel.app/',
+        repository: 'https://github.com/isierra93/ecommerce-narciso'
+    },
+    {
         name: 'Exchange App',
         description: 'Aplicacion que simula un Exchange de criptomonedas. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Construida con Bootstrap, Swal y Luxon.',
         image: 'https://camo.githubusercontent.com/03879b0e1230343a6e34861aa355dd49fc7521d331d1823cf782f7ef0d3c092e/68747470733a2f2f692e706f7374696d672e63632f74435a35487367712f436170747572612d6d696e2e706e67',

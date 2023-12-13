@@ -95,7 +95,7 @@ li {
   padding: 0;
   margin: auto;
   border-right: .15rem solid #000000;
-  animation: typing 4s steps(25) 1s 1 normal both, blink 1s steps(1) infinite;
+  animation: typing 5s steps(60) 1s 1 normal both, blink 1s steps(1) infinite;
   width: 0;
   max-width: max-content;
   overflow: hidden;
