@@ -83,7 +83,7 @@ export const projects = [
     {
         name: 'Ecommerce - React',
         description: 'Aplicacion Ecommerce que cuenta con carrito de compras, filtrado de productos, formulario de consultas y retorna ID de transaccion. La base de datos esta en Firebase',
-        image: 'https://camo.githubusercontent.com/d6915e0b76b2496b7b018467cd70845dc62d3f8d1aa5bfe8919df3bdb7b600b9/68747470733a2f2f692e706f7374696d672e63632f67633435645630582f6e61726369736f312d6d696e2e706e67',
+        image: 'https://camo.githubusercontent.com/cb3bdba55f3bee88b6e27c62e907fa42e1bea2952e90f3d11fe41a4f3ad60054/68747470733a2f2f692e706f7374696d672e63632f4c384e6e6a424e472f6e61726369736f322d6d696e2e706e67',
         deploy: 'https://ecommerce-narciso.vercel.app/',
         repository: 'https://github.com/isierra93/ecommerce-narciso'
     },

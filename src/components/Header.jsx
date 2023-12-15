@@ -1,4 +1,4 @@
-import perfil from '/profile.jpg'
+import perfil from '/profile-min.jpg'
 import CV from '/Ivan Sierra - Curriculum.pdf'
 
 export default function Header() {
