@@ -76,21 +76,21 @@ export const projects = [
     {
         name: 'Weather App',
         description: 'Aplicacion que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.',
-        image: 'https://camo.githubusercontent.com/0e19d555fcf7944eeb9720b7a84f93f47e281ba2c8f516134d9ef566d5143d21/68747470733a2f2f692e706f7374696d672e63632f5871567a5a7962742f436170747572612e706e67',
+        image: '/projects/weather.png',
         deploy: 'https://isierra93.github.io/weather-app/',
         repository: 'https://github.com/isierra93/weather-app'
     },
     {
         name: 'Ecommerce - React',
         description: 'Aplicacion Ecommerce que cuenta con carrito de compras, filtrado de productos, formulario de consultas y retorna ID de transaccion. La base de datos esta en Firebase',
-        image: 'https://camo.githubusercontent.com/cb3bdba55f3bee88b6e27c62e907fa42e1bea2952e90f3d11fe41a4f3ad60054/68747470733a2f2f692e706f7374696d672e63632f4c384e6e6a424e472f6e61726369736f322d6d696e2e706e67',
+        image: '/projects/narciso.png',
         deploy: 'https://ecommerce-narciso.vercel.app/',
         repository: 'https://github.com/isierra93/ecommerce-narciso'
     },
     {
         name: 'Exchange App',
         description: 'Aplicacion que simula un Exchange de criptomonedas. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Construida con Bootstrap, Swal y Luxon.',
-        image: 'https://camo.githubusercontent.com/03879b0e1230343a6e34861aa355dd49fc7521d331d1823cf782f7ef0d3c092e/68747470733a2f2f692e706f7374696d672e63632f74435a35487367712f436170747572612d6d696e2e706e67',
+        image: '/projects/exchange.png',
         deploy: 'https://isierra93.github.io/Cryptocurrency-exchange/',
         repository: 'https://github.com/isierra93/Cryptocurrency-exchange'
     },
