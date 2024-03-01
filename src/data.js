@@ -89,7 +89,7 @@ export const projects = [
     },
     {
         name: 'Todo App',
-        description: 'Aplicación creada en React + Typescript, utilizando localStorage.',
+        description: 'Aplicación creada en React + Typescript, utilizando localStorage. Permite crear, editar, marcar como completada y borrar tareas.',
         image: '/projects/todoapp.png',
         deploy: 'https://todoapp-isierra93.vercel.app/',
         repository: 'https://github.com/isierra93/todoApp'
