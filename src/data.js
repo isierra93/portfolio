@@ -75,21 +75,28 @@ export const techs = [
 export const projects = [
     {
         name: 'Weather App',
-        description: 'Aplicacion que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.',
+        description: 'Aplicación que permite obtener los datos del clima actual ingresando la ciudad deseada. Construida con Vite + React.',
         image: '/projects/weather.png',
         deploy: 'https://isierra93.github.io/weather-app/',
         repository: 'https://github.com/isierra93/weather-app'
     },
     {
         name: 'Ecommerce - React',
-        description: 'Aplicacion Ecommerce que cuenta con carrito de compras, filtrado de productos, formulario de consultas y retorna ID de transaccion. La base de datos esta en Firebase',
+        description: 'Aplicación Ecommerce que cuenta con carrito de compras, filtrado de productos, formulario de consultas y retorna ID de transacción. La base de datos esta en Firebase.',
         image: '/projects/narciso.png',
         deploy: 'https://ecommerce-narciso.vercel.app/',
         repository: 'https://github.com/isierra93/ecommerce-narciso'
     },
     {
+        name: 'Todo App',
+        description: 'Aplicación creada en React + Typescript, utilizando localStorage.',
+        image: '/projects/todoapp.png',
+        deploy: 'https://todoapp-isierra93.vercel.app/',
+        repository: 'https://github.com/isierra93/todoApp'
+    },
+    {
         name: 'Exchange App',
-        description: 'Aplicacion que simula un Exchange de criptomonedas. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Construida con Bootstrap, Swal y Luxon.',
+        description: 'Aplicación que simula un Exchange de criptomonedas. Utiliza la API de Coingecko para consultar el valor actual de la criptomoneda y almacenar la cantidad adquirida en el LocalStorage. Construida con Bootstrap, Swal y Luxon.',
         image: '/projects/exchange.png',
         deploy: 'https://isierra93.github.io/Cryptocurrency-exchange/',
         repository: 'https://github.com/isierra93/Cryptocurrency-exchange'
