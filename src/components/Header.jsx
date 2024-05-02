@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header className='header animate__animated animate__lightSpeedInLeft'>
             <div className='header-img'>
-                <img className='img-perfil' src={perfil} alt="A picture of me created by IA" />
+                <img className='img-perfil' src={perfil} alt="A picture of me" />
             </div>
             <div className='header-content'>
                 <h2 className='header-content-title'>Hola, soy Iván Sierra.</h2>
